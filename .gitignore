@@ -1,0 +1,31 @@
+# Original papers and extracted paper text
+*.pdf
+*_text.txt
+roman_paper.txt
+
+# Images and locally generated visual material
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+strpca_assets/
+strpca_slides.html
+
+# Other local projects not included in this repository
+量子计算/
+
+# Local tools and temporary files
+.pdftool/
+tmp/
+
+# Python environments, caches, and generated experiment outputs
+**/.venv-cuda/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/results/
+*.py[cod]
+.env
+.env.*
